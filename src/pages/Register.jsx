@@ -53,8 +53,8 @@ function Register() {
     } catch (err) {
       toast.error(
         err.response?.data?.error ||
-          err.message ||
-          "Registration failed."
+        err.message ||
+        "Registration failed."
       );
     } finally {
       setLoading(false);
@@ -218,7 +218,7 @@ function Register() {
                 </div>
 
               </div>
-                            {/* Email */}
+              {/* Email */}
 
               <div>
 
